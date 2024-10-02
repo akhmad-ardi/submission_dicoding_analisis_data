@@ -7,7 +7,7 @@ from babel.numbers import format_currency
 sns.set_theme(style='dark')
 
 # Load dataset
-df_day = pd.read_csv('dashboard/cleaned_day_data.csv')
+df_day = pd.read_csv('data_dashboard/cleaned_day_data.csv')
 
 # Set up Streamlit app title
 st.title("Bike Rentals")
